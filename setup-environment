@@ -176,7 +176,7 @@ fi
 
 cat <<EOF
 
-Welcome to Freescale Community BSP
+Welcome !
 
 The Yocto Project has extensive documentation about OE including a
 reference manual which can be found at:
@@ -202,8 +202,7 @@ Your build environment has been configured with:
 
     MACHINE=$MACHINE
     SDKMACHINE=$SDKMACHINE
-    DISTRO=$DISTRO
-    EULA=$EULA
+    DISTRO=$DISTRO    
 EOF
 else
     echo "Your configuration files at $1 have not been touched."
